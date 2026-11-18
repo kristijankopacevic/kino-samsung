@@ -1,5 +1,5 @@
 (function () {
-  var V = '202611181623', JS = './assets/index-DmkeJK5W.js', CSS = './assets/style-B2x6-VZP.css', UP = 'https://kristijankopacevic.github.io/kino-samsung/', ls = null, cache = null;
+  var V = '202611181628', JS = './assets/index-CUgmCPsO.js', CSS = './assets/style-B2x6-VZP.css', UP = 'https://kristijankopacevic.github.io/kino-samsung/', ls = null, cache = null;
   try { ls = window.localStorage; cache = JSON.parse(ls.getItem('kino.app') || 'null'); } catch (e) {}
   try { if (cache && ls.getItem('kino.app.booting') === cache.version) { ls.removeItem('kino.app'); ls.removeItem('kino.app.booting'); cache = null; } } catch (e) {}
   window.KINO_BUILT = V; window.KINO_VERSION = V; window.KINO_UPDATE = UP;
